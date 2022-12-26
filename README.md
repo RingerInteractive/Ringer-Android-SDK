@@ -14,19 +14,19 @@ Ringer is an Android SDK that allows the mobile app to save and update contacts 
 
 
 ### Step 1
-Init SDK in your main application 
-token your token when register tenantID this feild is require
-app_name you application name optional
-phoneNumer your phone optional 
+Init SDK in your main application <br>
+token your token when register tenantID this feild is require  <br>
+app_name you application name optional  <br>
+phone_number your phone optional 
 ```
  InitializeToken(this, token,app_name, phone_number)
 ```
 ### Step 2
-If you are already using the Firebase you can use the following code.
-Add the function below in the FirebaseMessagingService
-R.color.bg_color background notification color
-R.mipmap.ic_launcher notification icon
-R.string.app_name noitficaiton title 
+If you are already using the Firebase you can use the following code.<br>
+Add the function below in the FirebaseMessagingService<br>
+R.color.bg_color background notification color<br>
+R.mipmap.ic_launcher notification icon<br>
+R.string.app_name noitficaiton title <br>
 
 ```onMessageReceived
 
