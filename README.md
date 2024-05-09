@@ -54,10 +54,10 @@ Now add below line in your project level build
 ```
 
 ### Step 4
-If you are not using Firebase, please use the following code.
+If you are  using Firebase, please use the following code.
 
 ```gradle
-implementation ('com.github.RingerInteractive:Ringer-SDK-Android:1.x.x'){
+implementation ('com.github.RingerInteractive:Ringer-SDK-Android:2.x.x'){
         transitive = true
         // Use the consuming application's FireBase module, so exclude it
         // from the dependency. (not totally necessary if you use compileOnly
